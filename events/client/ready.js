@@ -1,5 +1,5 @@
 module.exports = async (bot) => {
-    const { activity } = require("../config.json")
+    const { activity } = require("../../config.json")
     const os = require("os-utils")
     os.cpuUsage(function(v){
     const arr = [1, 2, 3, 4, 5, 6, 9, 7, 8, 9, 10];

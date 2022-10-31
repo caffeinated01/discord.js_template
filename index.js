@@ -1,5 +1,5 @@
 const env = require('dotenv').config()
-const { botid, permval } = require("config.json")
+const { botid, permval } = require("./config.json")
 const start = require("./bot.js")
 console.log("Initiating functions!")
 start.commander()

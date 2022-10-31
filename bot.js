@@ -24,10 +24,10 @@ const bot = new Client({
 bot.commands = new Collection();
 function commander(){
 console.log(`\x1b[32m%s`, "---------------------------------------------------------------------\n⭕ Commands ⭕\n---------------------------------------------------------------------")
-fs.readdirSync('./src/commands').forEach(dirs => {
-const commands = fs.readdirSync(`./src/commands/${dirs}`).filter(files => files.endsWith('.js'));
+fs.readdirSync('./commands').forEach(dirs => {
+const commands = fs.readdirSync(`./commands/${dirs}`).filter(files => files.endsWith('.js'));
 for (const file of commands) {
-        const command = require(`./src/commands/${dirs}/${file}`);
+        const command = require(`./commands/${dirs}/${file}`);
         console.log(`\x1b[32m%s`, `Loading command ${file} from ${dirs} ✅!`);
         bot.commands.set(command.name.toLowerCase(), command);
     };
