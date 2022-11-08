@@ -20,7 +20,6 @@ Is a discord.js template for beginners who don't know where to begin.
   replace permissions value (you can generate one in the discord developer portal)\
   ```https://discord.com/oauth2/authorize?client_id=123456789&scope=bot&permissions=8```
 # Socials:
-  [Twitch][twitch]\
+  [Twitch][twitch]
 
 [twitch]: https://www.twitch.tv/caffeinated01
-  Once you are done, you can run the bot!
