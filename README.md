@@ -21,9 +21,6 @@ Is a discord.js template for beginners who don't know where to begin.
   ```https://discord.com/oauth2/authorize?client_id=123456789&scope=bot&permissions=8```
 # Socials:
   [Twitch][twitch]\
-  [Discord][discord]
 
-
-[discord]: https://discord.gg/24CDPUFgSE
-[twitch]: https://www.twitch.tv/javiers_code
+[twitch]: https://www.twitch.tv/caffeinated01
   Once you are done, you can run the bot!
