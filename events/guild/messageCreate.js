@@ -1,6 +1,6 @@
 module.exports = (bot, messageCreate) => {
 const Discord = require("discord.js")
-let {prefix, ownerid} =  require("../config.json")
+let {prefix, ownerid} =  require("../../config.json")
 if (messageCreate.author.bot || messageCreate.channel.type === 'dm') return;
     if (messageCreate.content.indexOf(prefix) !== 0){
       return;
